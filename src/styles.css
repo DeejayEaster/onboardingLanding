@@ -482,7 +482,7 @@ section {
     border-radius: 16px;
     overflow: hidden;
     box-shadow: var(--shadow-xl);
-    background: var(--color-bg-dark);
+    background: transparent;
     animation: fadeInUp 0.8s ease-out;
 }
 
