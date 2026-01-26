@@ -77,7 +77,7 @@ Visit http://localhost:4173 to verify everything works.
 Before going live, update `src/config.js` with your production application URLs:
 
 ```javascript
-export const APP_LOGIN_URL = 'https://app.singlelink.com/login'
+export const APP_LOGIN_URL = 'https://app.singlelink.io/login'
 ```
 
 ## Need Help?

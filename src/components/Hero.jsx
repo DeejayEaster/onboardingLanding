@@ -1,5 +1,5 @@
 import React from 'react'
-import { APP_LOGIN_URL } from '../config'
+import { APP_LOGIN_URL, APP_URL } from '../config'
 
 function Hero() {
   const handleSmoothScroll = (e, targetId) => {
@@ -19,7 +19,7 @@ function Hero() {
             Create branded onboarding microsites that replace emails, folders, and forms — and give clients a better first impression.
           </p>
           <div className="hero-ctas">
-            <a href="#cta" className="btn-primary" onClick={(e) => handleSmoothScroll(e, '#cta')}>
+            <a href={APP_URL} className="btn-primary">
               Get Started
             </a>
             <a href="#how-it-works" className="btn-outline" onClick={(e) => handleSmoothScroll(e, '#how-it-works')}>

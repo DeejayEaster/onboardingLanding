@@ -106,6 +106,8 @@ body {
     cursor: pointer;
     border: none;
     font-size: 16px;
+    line-height: 1.5;
+    vertical-align: middle;
 }
 
 .btn-primary,
@@ -176,6 +178,7 @@ body {
 
 .hero-ctas {
     display: flex;
+    align-items: center;
     gap: 16px;
     flex-wrap: wrap;
     margin-bottom: 16px;

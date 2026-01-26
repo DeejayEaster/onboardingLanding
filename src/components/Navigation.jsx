@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { APP_LOGIN_URL } from '../config'
+import { APP_LOGIN_URL, APP_URL } from '../config'
 
 function Navigation() {
   const [scrolled, setScrolled] = useState(false)
@@ -39,7 +39,7 @@ function Navigation() {
             <a href={APP_LOGIN_URL} className="nav-signin">
               Sign In
             </a>
-            <a href="#cta" className="btn-secondary" onClick={(e) => handleSmoothScroll(e, '#cta')}>
+            <a href={APP_URL} className="btn-secondary">
               Get Started
             </a>
           </div>

@@ -146,7 +146,7 @@ If you need different URLs for staging/production, consider using environment va
 
 1. Create `.env.production`:
    ```
-   VITE_APP_URL=https://app.singlelink.com
+   VITE_APP_URL=https://app.singlelink.io
    ```
 
 2. Update `src/config.js`:
