@@ -10,7 +10,7 @@ function HowItWorks() {
     {
       number: 2,
       title: 'Add onboarding tasks',
-      description: 'Upload documents, sign contracts, fill out intake questionnaires, watch welcome videos, or review important resources.'
+      description: 'Choose from powerful checklist item types: file uploads, e-signatures, questionnaires, approvals, external links, and more. Build the perfect workflow for each client.'
     },
     {
       number: 3,

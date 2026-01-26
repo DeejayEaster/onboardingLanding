@@ -5,6 +5,7 @@ import SocialProof from './components/SocialProof'
 import Problem from './components/Problem'
 import Solution from './components/Solution'
 import HowItWorks from './components/HowItWorks'
+import Capabilities from './components/Capabilities'
 import SmartAssessments from './components/SmartAssessments'
 import UseCases from './components/UseCases'
 import Features from './components/Features'
@@ -21,6 +22,7 @@ function App() {
       <Problem />
       <Solution />
       <HowItWorks />
+      <Capabilities />
       <SmartAssessments />
       <UseCases />
       <Features />
