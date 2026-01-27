@@ -16,7 +16,7 @@ function Hero() {
         <div className="hero-content">
           <h1 className="hero-title">Client onboarding, reimagined as a guided experience.</h1>
           <p className="hero-subtitle">
-            Create branded onboarding microsites that replace emails, folders, and forms — and give clients a better first impression.
+            Create branded onboarding microsites that replace emails, folders, and forms while giving clients a better first impression.
           </p>
           <div className="hero-ctas">
             <a href={APP_URL} className="btn-primary">
