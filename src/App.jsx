@@ -9,7 +9,6 @@ import Capabilities from './components/Capabilities'
 import SmartAssessments from './components/SmartAssessments'
 import UseCases from './components/UseCases'
 import Features from './components/Features'
-import WhoItsFor from './components/WhoItsFor'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 
@@ -26,7 +25,6 @@ function App() {
       <SmartAssessments />
       <UseCases />
       <Features />
-      <WhoItsFor />
       <CTA />
       <Footer />
     </>
