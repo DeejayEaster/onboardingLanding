@@ -4,22 +4,22 @@ function HowItWorks() {
   const steps = [
     {
       number: 1,
-      title: 'Create a branded microsite',
+      title: 'Create an agency-branded client portal',
       description: 'Set up a personalized space with your branding—colors, logo, fonts. Each client gets their own dedicated microsite.'
     },
     {
       number: 2,
-      title: 'Add onboarding tasks',
+      title: 'Add your repeatable onboarding checklist',
       description: 'Choose from powerful checklist item types: file uploads, e-signatures, questionnaires, approvals, external links, and more. Build the perfect workflow for each client.'
     },
     {
       number: 3,
-      title: 'Share a magic link',
+      title: 'Send one magic link to the client',
       description: 'Clients access their microsite through a simple link—no passwords to remember. They see a clean, professional checklist.'
     },
     {
       number: 4,
-      title: 'Track progress',
+      title: 'Track completion and start kickoff faster',
       description: 'Watch clients work through each item at their own pace. Exchange messages, request signatures, and manage everything in one place.'
     }
   ]
@@ -59,7 +59,7 @@ function HowItWorks() {
     <section id="how-it-works" className="how-it-works">
       <div className="container">
         <h2 className="section-title">How it works</h2>
-        <p className="section-intro">Simple steps to transform your client onboarding</p>
+        <p className="section-intro">Simple steps to standardize agency onboarding</p>
         <div className="steps">
           {steps.map((step, index) => (
             <div

@@ -59,7 +59,7 @@ function Problem() {
     <section className="problem">
       <div className="container">
         <h2 className="section-title">The current state of onboarding</h2>
-        <p className="section-intro">Most client onboarding is a mess. Here's what you're probably dealing with:</p>
+        <p className="section-intro">Agency onboarding breaks down in the same four places:</p>
         <div className="problem-list">
           {problemItems.map((item, index) => (
             <div

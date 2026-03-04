@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react'
 function Features() {
   const featureGroups = [
     {
-      title: 'Client Experience',
+      title: 'Looks premium from day one',
       features: [
         'Branded microsites with your colors, logo, and fonts',
         'Magic link access—no passwords required',
@@ -12,7 +12,7 @@ function Features() {
       ]
     },
     {
-      title: 'Content Collection',
+      title: 'Get required assets the first time',
       features: [
         'Document uploads with organization',
         'Digital signature requests',
@@ -21,7 +21,7 @@ function Features() {
       ]
     },
     {
-      title: 'Visibility & Control',
+      title: 'Know what is blocking kickoff',
       features: [
         'Real-time progress tracking',
         'In-platform messaging',

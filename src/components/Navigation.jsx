@@ -40,7 +40,7 @@ function Navigation() {
               Sign In
             </a>
             <a href={APP_URL} className="btn-secondary">
-              Get Started
+              Start Free
             </a>
           </div>
         </div>

@@ -51,8 +51,8 @@ function SmartAssessments() {
     <section className="smart-assessments">
       <div className="container">
         <div className="assessments-content">
-          <h2 className="section-title">Smart Assessments</h2>
-          <p className="assessments-lead">Take intake forms further with intelligent questionnaires</p>
+          <h2 className="section-title">Optional: Smart Assessments</h2>
+          <p className="assessments-lead">For agencies with multiple service tiers and qualification paths</p>
           <p className="assessments-text">
             Instead of just collecting information, you can build intelligent questionnaires that automatically generate personalized recommendations based on client responses.
           </p>

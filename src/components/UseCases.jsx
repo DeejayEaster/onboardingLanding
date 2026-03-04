@@ -3,22 +3,22 @@ import React, { useEffect, useRef } from 'react'
 function UseCases() {
   const useCases = [
     {
-      title: 'Agencies onboarding new clients',
-      before: 'Scattered emails, shared Google Drive folders, missed deadlines, confused clients.',
-      after: 'One branded microsite per client. Clear checklist. Everything in one place.',
-      outcome: 'Clients start projects faster. You look more professional. Less time spent on admin.'
+      title: 'SEO agency client onboarding',
+      before: 'Credentials, analytics access, and intake details are collected across email threads and docs.',
+      after: 'One portal collects access, goals, assets, and kickoff requirements in a single guided checklist.',
+      outcome: 'Faster kickoff, fewer missing inputs, and less project delay in week one.'
     },
     {
-      title: 'Consultants qualifying and recommending services',
-      before: 'Long discovery calls, generic intake forms, manual qualification process.',
-      after: 'Smart assessments that automatically qualify leads and suggest the right service.',
-      outcome: 'Better-qualified leads. Personalized recommendations. Less time wasted on bad fits.'
+      title: 'Paid media agency handoff',
+      before: 'Ad account access, billing details, and creative assets arrive piecemeal and stall campaign launch.',
+      after: 'Clients submit required items in order with clear progress and approval checkpoints.',
+      outcome: 'Campaigns launch faster with fewer back-and-forth follow-ups from your team.'
     },
     {
-      title: 'Creative professionals collecting assets and approvals',
-      before: 'Files sent via email, lost assets, unclear approval process.',
-      after: 'Structured asset collection. Clear approval workflows. Everything organized.',
-      outcome: 'Projects start with all assets. Faster turnaround. Happier clients.'
+      title: 'Web design/development onboarding',
+      before: 'Brand files, content, domain details, and approvals come in late or incomplete.',
+      after: 'Structured onboarding portal centralizes uploads, signatures, and requirements before build starts.',
+      outcome: 'Cleaner project starts, tighter timelines, and a more professional client experience.'
     }
   ]
 

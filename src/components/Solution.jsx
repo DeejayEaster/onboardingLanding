@@ -6,12 +6,12 @@ function Solution() {
       <div className="container">
         <div className="solution-content">
           <h2 className="section-title">A better way</h2>
-          <p className="solution-lead">Instead of juggling tools, give every client a single place to get started.</p>
+          <p className="solution-lead">Give every new client one branded onboarding portal instead of 12 scattered threads.</p>
           <p className="solution-text">
-            Your platform replaces the chaos of scattered onboarding with a polished, concierge-style experience. Your clients feel taken care of from day one. You get visibility into their progress, can exchange messages, request signatures on documents, and manage file uploads—all in one place.
+            SingleLink replaces scattered onboarding with a polished, repeatable process. Clients know exactly what to do next, and your team spends less time chasing files, signatures, and missing details.
           </p>
           <p className="solution-text">
-            It's designed to feel premium and personal, not like another project management tool cluttered with features you don't need.
+            You get a premium first impression, clearer progress visibility, and faster kickoff without forcing your clients into another bloated PM workflow.
           </p>
         </div>
         <div className="solution-visual">

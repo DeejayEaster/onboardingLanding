@@ -1,5 +1,5 @@
 import React from 'react'
-import { APP_LOGIN_URL, APP_URL } from '../config'
+import { APP_LOGIN_URL, APP_URL, LIVE_EXAMPLE_URL } from '../config'
 
 function Hero() {
   const handleSmoothScroll = (e, targetId) => {
@@ -14,20 +14,20 @@ function Hero() {
     <section className="hero">
       <div className="container">
         <div className="hero-content">
-          <h1 className="hero-title">Client onboarding, reimagined as a guided experience.</h1>
+          <h1 className="hero-title">Client onboarding portals for small marketing agencies.</h1>
           <p className="hero-subtitle">
-            Create branded onboarding microsites that replace emails, folders, and forms while giving clients a better first impression.
+            Replace onboarding chaos across email, docs, and shared drives with one branded client portal that collects everything and keeps kickoff on track.
           </p>
           <div className="hero-ctas">
             <a href={APP_URL} className="btn-primary">
-              Get Started
+              Start Free
             </a>
-            <a href="#how-it-works" className="btn-outline" onClick={(e) => handleSmoothScroll(e, '#how-it-works')}>
-              See How It Works
+            <a href={LIVE_EXAMPLE_URL} className="btn-outline">
+              See Live Example
             </a>
           </div>
           <div className="hero-signin">
-            <span>Already have an account? </span>
+            <span>Built for agencies onboarding retainer clients every month. </span>
             <a href={APP_LOGIN_URL} className="hero-signin-link">Sign In</a>
           </div>
         </div>

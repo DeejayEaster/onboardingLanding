@@ -5,7 +5,7 @@ function SocialProof() {
     <section className="social-proof">
       <div className="container">
         <p className="social-proof-text">
-          Built by former agency operators • Designed for consultants and service businesses
+          Used by agency operators to standardize onboarding, reduce admin drag, and start projects faster.
         </p>
       </div>
     </section>
