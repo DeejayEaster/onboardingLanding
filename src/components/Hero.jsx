@@ -1,5 +1,6 @@
 import React from 'react'
 import { APP_LOGIN_URL, APP_URL, LIVE_EXAMPLE_URL } from '../config'
+import { trackEvent } from '../lib/analytics'
 
 function Hero() {
   const handleSmoothScroll = (e, targetId) => {
@@ -19,10 +20,18 @@ function Hero() {
             Replace onboarding chaos across email, docs, and shared drives with one branded client portal that collects everything and keeps kickoff on track.
           </p>
           <div className="hero-ctas">
-            <a href={APP_URL} className="btn-primary">
+            <a
+              href={APP_URL}
+              className="btn-primary"
+              onClick={() => trackEvent('cta_click', { location: 'hero', cta: 'start_free' })}
+            >
               Start Free
             </a>
-            <a href={LIVE_EXAMPLE_URL} className="btn-outline">
+            <a
+              href={LIVE_EXAMPLE_URL}
+              className="btn-outline"
+              onClick={() => trackEvent('cta_click', { location: 'hero', cta: 'live_example' })}
+            >
               See Live Example
             </a>
           </div>

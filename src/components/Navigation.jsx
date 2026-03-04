@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { APP_LOGIN_URL, APP_URL } from '../config'
+import { trackEvent } from '../lib/analytics'
 
 function Navigation() {
   const [scrolled, setScrolled] = useState(false)
@@ -36,10 +37,18 @@ function Navigation() {
             <a href="#use-cases" onClick={(e) => handleSmoothScroll(e, '#use-cases')}>
               Use Cases
             </a>
-            <a href={APP_LOGIN_URL} className="nav-signin">
+            <a
+              href={APP_LOGIN_URL}
+              className="nav-signin"
+              onClick={() => trackEvent('nav_click', { target: 'sign_in' })}
+            >
               Sign In
             </a>
-            <a href={APP_URL} className="btn-secondary">
+            <a
+              href={APP_URL}
+              className="btn-secondary"
+              onClick={() => trackEvent('cta_click', { location: 'nav', cta: 'start_free' })}
+            >
               Start Free
             </a>
           </div>

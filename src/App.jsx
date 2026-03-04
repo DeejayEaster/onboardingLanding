@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from './components/Navigation'
 import Hero from './components/Hero'
 import SocialProof from './components/SocialProof'
+import Testimonials from './components/Testimonials'
 import Problem from './components/Problem'
 import Solution from './components/Solution'
 import HowItWorks from './components/HowItWorks'
@@ -18,6 +19,7 @@ function App() {
       <Navigation />
       <Hero />
       <SocialProof />
+      <Testimonials />
       <Problem />
       <Solution />
       <HowItWorks />
