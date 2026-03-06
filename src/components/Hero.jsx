@@ -1,5 +1,5 @@
 import React from 'react'
-import { APP_LOGIN_URL, APP_URL, LIVE_EXAMPLE_URL } from '../config'
+import { APP_LOGIN_URL, LIVE_EXAMPLE_URL, getTrackedSignupUrl } from '../config'
 import { trackEvent } from '../lib/analytics'
 
 function Hero() {
@@ -21,7 +21,7 @@ function Hero() {
           </p>
           <div className="hero-ctas">
             <a
-              href={APP_URL}
+              href={getTrackedSignupUrl('landing_hero', 'start_free')}
               className="btn-primary"
               onClick={() => trackEvent('cta_click', { location: 'hero', cta: 'start_free' })}
             >

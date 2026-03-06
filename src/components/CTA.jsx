@@ -1,5 +1,5 @@
 import React from 'react'
-import { APP_URL, LIVE_EXAMPLE_URL } from '../config'
+import { LIVE_EXAMPLE_URL, getTrackedSignupUrl } from '../config'
 import { trackEvent } from '../lib/analytics'
 
 function CTA() {
@@ -11,7 +11,7 @@ function CTA() {
           <p className="cta-subtitle">Set up your first client flow in minutes. Keep onboarding polished, repeatable, and kickoff-ready.</p>
           <div className="cta-buttons">
             <a
-              href={APP_URL}
+              href={getTrackedSignupUrl('landing_cta', 'start_free')}
               className="btn-primary-large"
               onClick={() => trackEvent('cta_click', { location: 'final_cta', cta: 'start_free' })}
             >

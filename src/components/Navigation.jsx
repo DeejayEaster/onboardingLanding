@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { APP_LOGIN_URL, APP_URL } from '../config'
+import { APP_LOGIN_URL, getTrackedSignupUrl } from '../config'
 import { trackEvent } from '../lib/analytics'
 
 function Navigation() {
@@ -45,7 +45,7 @@ function Navigation() {
               Sign In
             </a>
             <a
-              href={APP_URL}
+              href={getTrackedSignupUrl('landing_nav', 'start_free')}
               className="btn-secondary"
               onClick={() => trackEvent('cta_click', { location: 'nav', cta: 'start_free' })}
             >
